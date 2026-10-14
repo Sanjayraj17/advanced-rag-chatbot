@@ -1,0 +1,22 @@
+# Python environment
+venv/
+.venv/
+__pycache__/
+*.py[cod]
+
+# Local PDF documents
+data/
+
+# ChromaDB databases
+chroma_db/
+chroma_db_multi/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Local logs and temporary files
+*.log
+.streamlit/secrets.toml
+
